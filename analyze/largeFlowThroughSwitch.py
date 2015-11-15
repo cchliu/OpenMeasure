@@ -30,8 +30,8 @@ def commandline_reminder():
 	K = int(raw_input())
 	print "please enter the number of pulling time intervals, in the unit of times of Res"
 	Tao = int(raw_input())
-	print "please enter the number of records needed to be maintained"
-	n = int(raw_input())
+	#print "please enter the number of records needed to be maintained"
+	#n = int(raw_input())
 
 
 def postprocess_traffic(traffic):
