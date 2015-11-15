@@ -113,7 +113,7 @@ def main():
 		sw_route = json.load(ff)
 	
 	""" Result for four dataset in Geant"""
-	print "Generating largeFlow hitrate for four dataset in GEANT network ..."
+	print "Generating largeFlow throughRate for four dataset in GEANT network ..."
 	multi_results = []
 	ydelta = 0
 	numrows = 2
