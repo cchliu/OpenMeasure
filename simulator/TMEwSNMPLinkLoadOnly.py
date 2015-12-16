@@ -22,6 +22,8 @@ class TMEwSNMPLinkLoad(OpenMeasure):
 	def TMEwSNMPLinkLoad(self):
 		### Construct network-wide observation matrix
 		D = self.OM.setupOM()
+		""" Debug """
+		print "rank of observation D in case {0} is {1}".format(self.cstr, np.linalg.matrix_rank(D))
 
 		t_epoch = 0
 	        traffic_estm = []
