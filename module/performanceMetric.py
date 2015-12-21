@@ -148,8 +148,8 @@ class perfMetric(object):
 				HHH_d += len([k for k in HHHList_estm if k in HHHList_true])
 				numHHH_true += len(HHHList_true)
 				numHHH_estm += len(HHHList_estm)
-			precision_ave += HHH_d / float(numHHH_true)
-			recall_ave += HHH_d / float(numHHH_estm)
+			recall_ave += HHH_d / float(numHHH_true)
+			precision_ave += HHH_d / float(numHHH_estm)
 			num_HHH += numHHH_true
 
 		precision_ave /= float(self.Tc)
