@@ -211,7 +211,7 @@ def main():
 		for sw in SDNSwitchList:
 			sw_Kj[sw] = kj
 		tmp_case = TMEwLB(infile_lst[0], sw_route_file, flow_route_file, prefix_file, SDNSwitchList, Tao)
-		tmp_case.set_rulePlacement("LastHop")
+		tmp_case.set_rulePlacementAlgo("LastHop")
 		p = Process(target=worker, args=(q, iters, tmp_case, sw_Kj, tmp_case.set_swKj, tmp_case.TMEwLB))
 		p.start()
 
